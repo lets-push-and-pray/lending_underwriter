@@ -1,10 +1,11 @@
 # Data & ML
 pandas
 numpy
-matplotlib
 scikit-learn
 xgboost
 shap
+matplotlib
+joblib
 
 # Notebook & Dev
 jupyter
