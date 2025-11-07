@@ -36,6 +36,7 @@ Clone the repository:
 (Replace with your actual repository URL)
 
 git clone https://github.com/lets-push-and-pray/lending_underwriter.git
+
 cd lendingunderwriter-credsynthai
 
 
