@@ -56,13 +56,13 @@ st.sidebar.header("Applicant Data")
 
 # Create input fields
 business_vintage_months = st.sidebar.number_input(
-    "Business Vintage (Months)", min_value=1, max_value=240, value=45
+    "Business Vintage (Months)", min_value=1, max_value=240, value=48
 )
 avg_monthly_gst_turnover = st.sidebar.number_input(
-    "Average Monthly GST Turnover (₹)", min_value=0, value=270000
+    "Average Monthly GST Turnover (₹)", min_value=0, value=50000
 )
 avg_monthly_bank_balance = st.sidebar.number_input(
-    "Average Monthly Bank Balance (₹)", min_value=0, value=129000
+    "Average Monthly Bank Balance (₹)", min_value=0, value=25000
 )
 num_cheque_bounces_last_6mo = st.sidebar.number_input(
     "Cheque Bounces (Last 6 Months)", min_value=0, max_value=20, value=1

@@ -20,6 +20,14 @@ def generate_synthetic_data(num_rows=2000):
     
     df = pd.DataFrame(data)
     
+    # Save the synthetically generated data to a csv file
+    DATA_FILE_PATH = 'synthetic_data.csv'
+    try:
+        df.to_csv(DATA_FILE_PATH, index=False)
+        print(f"Successfully saved synthetic data to '{DATA_FILE_PATH}'")
+    except Exception as e:
+        print(f"Warning: Could not save data file. Error: {e}")
+    
     # Create the target variable 'loan_defaulted'
     # More bounces, lower balance, and lower turnover = higher default risk
     score = (
