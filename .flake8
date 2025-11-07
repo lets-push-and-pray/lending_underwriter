@@ -1,0 +1,5 @@
+[flake8]
+ignore = E203, E501, W503
+# E203: Whitespace before ':'
+# E501: Line too long (let 'black' handle this)
+# W503: Line break before binary operator

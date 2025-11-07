@@ -1,0 +1,17 @@
+# Data & ML
+pandas
+numpy
+scikit-learn
+xgboost
+shap
+matplotlib
+joblib
+
+# Notebook & Dev
+jupyter
+black
+flake8
+pytest
+
+# API
+flask
