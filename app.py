@@ -65,7 +65,7 @@ avg_monthly_bank_balance = st.sidebar.number_input(
     "Average Monthly Bank Balance (₹)", min_value=0, value=25000
 )
 num_cheque_bounces_last_6mo = st.sidebar.number_input(
-    "Cheque Bounces (Last 6 Months)", min_value=0, max_value=20, value=2
+    "Cheque Bounces (Last 6 Months)", min_value=0, max_value=20, value=1
 )
 industry_type = st.sidebar.selectbox(
     "Industry Type",
